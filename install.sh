@@ -1,8 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 apt update
-apt install -y git zsh
-clear
+apt install -y zsh curl
 
 if [ -d "$HOME/.termux" ]; then
  mv $HOME/.termux $HOME/.termux.bak
