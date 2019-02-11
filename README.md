@@ -9,10 +9,10 @@ Setup Termux with:
 # Requirement
 - curl
 ```bash
-apt install -y curl
+apt install -y git
 ```
 
 # Installation
 ```bash
-bash -c "$(curl -fsSL https://git.io/oh-my-termux)"
+git clone https://github.com/m00tiny/oh-my-termux/ .oh-my-termux && bash .oh-my-termux/install.sh
 ```

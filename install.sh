@@ -18,4 +18,4 @@ termux-setup-storage
 
 echo Done!
 
-exit
+exit | exit
