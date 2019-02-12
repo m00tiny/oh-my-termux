@@ -1,6 +1,9 @@
 # oh-my-termux
 
-##THIS IS A FORK, READ THE INSTALL, IT WILL OVERWRITE FILES
+## THIS IS A FORK, READ THE INSTALL.SH, IT WILL OVERWRITE FILES
+## THIS IS A FORK, READ THE INSTALL.SH, IT WILL OVERWRITE FILES
+## THIS IS A FORK, READ THE INSTALL.SH, IT WILL OVERWRITE FILES
+## THIS IS A FORK, READ THE INSTALL.SH, IT WILL OVERWRITE FILES
 
 Setup Termux with:
 
@@ -9,12 +12,13 @@ Setup Termux with:
  - oh-my-zsh
 
 # Requirement
-- curl
-```bash
-apt install -y git
+- git bash
+```
+apt update && apt upgrade && apt install git
 ```
 
 # Installation
-```bash
+Not really meant to be installed unless you happen to use a similar base.  Should fork the repo and edit install.sh or just write something better and less sloppy.
+```
 git clone https://github.com/m00tiny/oh-my-termux/ .oh-my-termux && bash .oh-my-termux/install.sh
 ```
