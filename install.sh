@@ -2,11 +2,11 @@
 
 apt update
 apt install -y zsh curl nano nmap axel hub cowsay
-apt install -y openssh torsocks termux-apu termux-keyring
+apt install -y openssh torsocks termux-api termux-keyring
 apt install -y wget unzip unrar tar screen ranger
 apt install -y python python2 nodejs ruby
 apt install -y p7zip bzip2 asciinema zip radare2
-apt install -y gpgme golang dns-utils grep sed awk
+apt install -y gpgme golang dnsutils grep sed gawk
 if [ -d "$HOME/.termux" ]; then
  mv $HOME/.termux $HOME/.termux.bak
 fi
@@ -28,5 +28,3 @@ mkdir -p $HOME/resources
 termux-setup-storage
 
 cowsay -m "m00 like a shark - m00tiny" > $HOME/../usr/etc/motd
-
-exit | exit
