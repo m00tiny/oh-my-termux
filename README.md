@@ -1,5 +1,7 @@
 # oh-my-termux
 
+##THIS IS A FORK, READ THE INSTALL, IT WILL OVERWRITE FILES
+
 Setup Termux with:
 
  - Solarized Dark
