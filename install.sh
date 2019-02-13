@@ -29,4 +29,5 @@ termux-setup-storage
 
 cowsay -m "m00 like a shark - m00tiny" > $HOME/../usr/etc/motd
 
-exit | exit
+git clone git://github.com/danielmiessler/SecLists.git $HOME/resources/SecLists/
+exit
