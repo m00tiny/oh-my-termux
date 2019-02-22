@@ -7,7 +7,7 @@ apt install -y wget unzip unrar tar screen ranger
 apt install -y python python2 nodejs ruby
 apt install -y p7zip bzip2 asciinema zip radare2
 apt install -y gpgme golang dnsutils grep sed gawk
-apt install -y autossh corkskrew sslh
+apt install -y autossh corkskrew sslh nvim byobu
 if [ -d "$HOME/.termux" ]; then
  mv $HOME/.termux $HOME/.termux.bak
 fi
